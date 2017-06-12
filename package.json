@@ -1,0 +1,20 @@
+{
+  "name": "aem",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Iegor Azuaga <dextrackmedia@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && ava"
+  },
+  "ava": {
+    "require": [
+      "./test/helpers/setup-browser-env.js"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "browser-env": "^2.0.31",
+    "standard": "^10.0.2"
+  }
+}
