@@ -13,7 +13,7 @@ import AEM from 'aem';
 
 class Button extends AEM.Component {
   init() {
-    this.element.addEventListener('click', () => {
+    this.element.addEventListener('click', e => {
       alert('You clicked me!');
     });
   }
