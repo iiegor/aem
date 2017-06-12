@@ -6,7 +6,7 @@
 npm i --save aem
 ```
 
-### Example:
+### Usage example:
 
 ```js
 import AEM from 'aem';
