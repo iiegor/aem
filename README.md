@@ -6,6 +6,19 @@
 npm i --save aem
 ```
 
+### API:
+
+```js
+class AEM.Component {
+  constructor(element: HTMLElement, attributes: HTMLElement.dataset): void,
+  init(): void
+}
+```
+
+```js
+AEM.registerComponent(selector: string, ComponentClass: AEM.Component): void
+```
+
 ### Usage example:
 
 ```js
